@@ -1,12 +1,11 @@
-/*
- First name: Carlos
- Last name: Stevenson
- This year: 1965
- Birth year: 1947
 
- The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
-*/
+const firstName =  "Carlos"
+const lastName = "Stevenson"
+const Thisyear = 1965
+const Birthyear = 1947
 
+const greeting = "Hello! My name is "+ firstName +" "+ lastName+ " and i am "+ (Thisyear-Birthyear)+" years old "
+console.log(greeting)
 // Add your code right below, good luck!
 
 
